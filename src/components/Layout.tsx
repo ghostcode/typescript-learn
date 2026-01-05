@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, BookOpen, Code, GraduationCap, Trophy } from 'lucide-react';
 import { cn } from '../lib/utils';

@@ -203,7 +203,7 @@ export const Playground: React.FC = () => {
     try {
       // 创建一个安全的执行环境
       // 注意：这里只是模拟，实际生产环境中需要更安全的执行方式
-      const AsyncFunction = Object.getPrototypeOf(async function(){}).constructor;
+      // const AsyncFunction = Object.getPrototypeOf(async function(){}).constructor;
 
       // 包装代码，使用 eval 执行（仅用于演示）
       // 在生产环境中应该使用沙箱环境
